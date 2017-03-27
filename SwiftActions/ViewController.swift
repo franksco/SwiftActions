@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     @IBOutlet var switchOutlet: UISwitch!
     @IBOutlet var label: UILabel!
+    @IBOutlet var llabel2: UILabel!
+    @IBOutlet var segmentControl: UISegmentedControl!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +40,8 @@ class ViewController: UIViewController {
             label.text = "The switch is off"
         } //if statement allowing us to see if the switch is on or off.
         
+    }
+    @IBAction func controlSegment(_ sender: Any) {
     }
 
 }
