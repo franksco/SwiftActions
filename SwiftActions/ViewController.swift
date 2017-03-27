@@ -21,7 +21,7 @@ class ViewController: UIViewController {
             label.text = "The switch is on"
         } else {
             label.text = "The switch is off"
-        }
+        } // allows the app to see if the switch is on or off when the view load up for the first time.
 
     }
 
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
             label.text = "The switch is on"
         } else {
             label.text = "The switch is off"
-        }
+        } //if statement allowing us to see if the switch is on or off.
         
     }
 
