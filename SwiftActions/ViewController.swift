@@ -57,7 +57,7 @@ class ViewController: UIViewController {
         } else if (segmentControl.selectedSegmentIndex == 3){
             label2.text = "Segment 4 was selected"
             
-        }
+        } //if statement allowing us to see which segment of our segment control has been selected and then tell's the user.
         
     }
 
