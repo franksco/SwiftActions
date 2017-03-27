@@ -11,10 +11,11 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet var switchOutlet: UISwitch!
-    @IBOutlet var label: UILabel!
-    @IBOutlet var llabel2: UILabel!
     @IBOutlet var segmentControl: UISegmentedControl!
-
+    @IBOutlet var label: UILabel!
+    @IBOutlet var label2: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -41,8 +42,23 @@ class ViewController: UIViewController {
         } //if statement allowing us to see if the switch is on or off.
         
     }
+    
     @IBAction func controlSegment(_ sender: Any) {
+        
+        if (segmentControl.selectedSegmentIndex == 0) {
+            label2.text = "Segment 1 was selected"
+            
+        } else if (segmentControl.selectedSegmentIndex == 1) {
+            label2.text = "Segment 2 was selected"
+            
+        } else if (segmentControl.selectedSegmentIndex == 2){
+            label2.text = "Segment 3 was selected"
+            
+        } else if (segmentControl.selectedSegmentIndex == 3){
+            label2.text = "Segment 4 was selected"
+            
+        }
+        
     }
 
 }
-

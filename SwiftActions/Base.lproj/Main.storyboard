@@ -60,7 +60,7 @@
                     </view>
                     <connections>
                         <outlet property="label" destination="tpd-Al-ilJ" id="kEZ-bM-gMt"/>
-                        <outlet property="llabel2" destination="6wH-Ig-rB4" id="LHU-SI-JBu"/>
+                        <outlet property="label2" destination="6wH-Ig-rB4" id="b3O-Qr-6JV"/>
                         <outlet property="segmentControl" destination="JFQ-1d-eK1" id="BuH-WK-OG0"/>
                         <outlet property="switchOutlet" destination="CZ4-h0-KjW" id="zKQ-DZ-RfE"/>
                     </connections>
